@@ -14,7 +14,7 @@ class Sell extends React.Component {
                 <TableCell>{this.props.won}</TableCell>
             </TableRow>
 
-        )   
+        )  
     }
 }
 
