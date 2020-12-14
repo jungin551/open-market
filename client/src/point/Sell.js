@@ -18,28 +18,5 @@ class Sell extends React.Component {
     }
 }
 
-class SellProfile extends React.Component {
-    render() {
-        return (
-            <div>
-                <book src={this.props.book} alt="profile"/>
-                <h2>{this.props.name}({this.props.date})</h2>
-            </div>
-        )
-    }
-}
-
-class SellInfo extends React.Component {
-    render() {
-        return (
-            <div>
-                <p>{this.props.haknum}</p>    
-                <p>{this.props.email}</p>
-                <p>{this.props.won}</p>
-            </div>
-        )
-    }
-}
-
 
 export default Sell;

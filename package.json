@@ -1,0 +1,17 @@
+{
+  "name": "open1",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\"\"yarn client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "css-loader": "^5.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
